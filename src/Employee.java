@@ -15,7 +15,7 @@ public class Employee {
         this.salary = salary;
     }
 
-    public static int incrementCounter() {
+    private static int incrementCounter() {
         return ++counter;
     }
     public int getId() {
